@@ -1,13 +1,13 @@
 /***
- * This CSS will be included in WordCamp Europe 2025 every time
+ * This CSS will be included in WordCamp Europe 2026 every time
  * you will make a repository commit and reload remote CSS from the website
  * admin view (Appearance -> Remote CSS) or visiting
- * https://europe.wordcamp.org/2025/wp-admin/admin-ajax.php?action=wcrcss_webhook
- * https://europe.wordcamp.org/2025/ CSS will be synched with this file
+ * https://europe.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
+ * https://europe.wordcamp.org/2026/ CSS will be synched with this file
  *
- * Development environment is on https://wceutest.wordcamp.org/2025 and also includes
+ * Development environment is on https://wceutest.wordcamp.org/2026 and also includes
  * this remote CSS. Update CSS from the website admin view (Appearance -> Remote CSS)
- * or visiting https://wceutest.wordcamp.org/2025/wp-admin/admin-ajax.php?action=wcrcss_webhook
+ * or visiting https://wceutest.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
 
  * Don't use post IDs as selectors because they can change between development environment and production.
  * Instead, use the slug; e.g. body.post-slug-call-for-volunteers, body.page-slug-accommodation or better,
@@ -730,18 +730,18 @@ p.wc25-p-large-bold-small {
 	height: 1.25em;
 	/* slightly move the arrow up, so it's centered with the text */
 	margin-top: -.1em;
-	background-image: url('https://europe.wordcamp.org/2025/files/2025/02/arrow-button-arrow-white.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2026/02/arrow-button-arrow-white.png');
 	background-size: cover;
 	transform: translate3d( 0, -50%, 0 );
 }
 
 /* Use dark arrow, if the button has the black primary color */
 .is-style-arrow-button a.has-custom-black-primary-color::after {
-	background-image: url('https://europe.wordcamp.org/2025/files/2025/02/arrow-button-arrow-black.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2026/02/arrow-button-arrow-black.png');
 }
 /* Use orange arrow, if the button has the orange primary color */
 .is-style-arrow-button a.has-custom-orange-primary-color::after {
-	background-image: url('https://europe.wordcamp.org/2025/files/2025/02/arrow-button-arrow-orange.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2026/02/arrow-button-arrow-orange.png');
 }
 
 
@@ -828,12 +828,12 @@ p.wc25-p-large-bold-small {
 	margin-top: calc( -0.5 * clamp(8px, calc(8px + 0.5vw), 16px) );
 	width: 2em;
 	height: 2em;
-	background-image: url('https://europe.wordcamp.org/2025/files/2025/02/arrow-button-arrow-black-on-white.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2026/02/arrow-button-arrow-black-on-white.png');
 	background-size: cover;
 	transform: translate3d( 0, -50%, 0 );
 }
 .is-style-color-grid-buttons .wp-block-button__link:hover::after {
-	background-image: url('https://europe.wordcamp.org/2025/files/2025/02/arrow-button-arrow-orange-on-white.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2026/02/arrow-button-arrow-orange-on-white.png');
 }
 
 @media screen and (min-width: 500px) and (max-width: 999px) {
@@ -961,7 +961,7 @@ p.wc25-p-large-bold-small {
 	margin: 0 auto;
 	width: 192px;
 	height: 192px;
-	background-image: url('//europe.wordcamp.org/2025/files/2025/03/attendees.jpg');
+	background-image: url('//europe.wordcamp.org/2026/files/2026/03/attendees.jpg');
 	background-size: cover;
 }
 
@@ -1016,12 +1016,12 @@ p.wc25-p-large-bold-small {
 }
 
 #tix-attendees .tix-company-or-personal-website:before {
-	background: url('//europe.wordcamp.org/2025/files/2025/03/website.png') no-repeat center center;
+	background: url('//europe.wordcamp.org/2026/files/2026/03/website.png') no-repeat center center;
 	background-size: contain;
 }
 
 #tix-attendees .tix-wordpress-org-profile-url:before {
-	background: url('//europe.wordcamp.org/2025/files/2025/03/wordpress.png') no-repeat center center;
+	background: url('//europe.wordcamp.org/2026/files/2026/03/wordpress.png') no-repeat center center;
 	background-size: contain;
 }
 /* END of the Tix Attendees */
@@ -1170,11 +1170,11 @@ p.wc25-p-large-bold-small {
 }
 
 /* use blue color for the column header of the first day */
-#wordcamp-schedule__day-2025-06-06-tracks-all .wordcamp-schedule__column-header {
+#wordcamp-schedule__day-2026-06-06-tracks-all .wordcamp-schedule__column-header {
     background: var(--wp--preset--color--custom-light-blue-primary) !important;
 }
 /* use pink color for the column header of the second day */
-#wordcamp-schedule__day-2025-06-07-tracks-all .wordcamp-schedule__column-header {
+#wordcamp-schedule__day-2026-06-07-tracks-all .wordcamp-schedule__column-header {
     background: var(--wp--preset--color--custom-pink-secondary) !important;
 }
 
