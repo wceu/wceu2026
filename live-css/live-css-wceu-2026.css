@@ -1,50 +1,47 @@
 /***
- * This CSS will be included in WordCamp Europe 2026 every time
- * you will make a repository commit and reload remote CSS from the website
- * admin view (Appearance -> Remote CSS) or visiting
- * https://europe.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
- * https://europe.wordcamp.org/2026/ CSS will be synched with this file
- *
- * Development environment is on https://wceutest.wordcamp.org/2026 and also includes
- * this remote CSS. Update CSS from the website admin view (Appearance -> Remote CSS)
- * or visiting https://wceutest.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
+  This CSS will be included in WordCamp Europe 2026 every time
+  you will make a repository commit and reload remote CSS from the website
+  admin view (Appearance -> Remote CSS) or visiting
+  https://europe.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
+  https://europe.wordcamp.org/2026/ CSS will be synched with this file
+ 
+  Development environment is on https://wceutest.wordcamp.org/2026 and also includes
+  this remote CSS. Update CSS from the website admin view (Appearance -> Remote CSS)
+  or visiting https://wceutest.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
 
- * Don't use post IDs as selectors because they can change between development environment and production.
- * Instead, use the slug; e.g. body.post-slug-call-for-volunteers, body.page-slug-accommodation or better,
- * create a class and use it on the element because we can reuse these classes.
- *
- * CSS vars defined on website Theme (vars values can change during the development process):
- *  --wp--preset--color--custom-orange-primary: #f04614;
- *  --wp--preset--color--custom-light-blue-primary: #1ec8dc;
- *  --wp--preset--color--custom-black-primary: #00000f;
- *  --wp--preset--color--custom-pink-secondary: #faaff0;
- *  --wp--preset--color--custom-yellow-secondary: #ffe65f;
- *  --wp--preset--color--custom-white-secondary: #f5f5f5;
- *
- *  --wp--preset--font-family--body: "Inter", sans-serif;
- *  --wp--preset--font-family--heading: Cardo;
- */
+  Don't use post IDs as selectors because they can change between development environment and production.
+  Instead, use the slug; e.g. body.post-slug-call-for-volunteers, body.page-slug-accommodation or better,
+  create a class and use it on the element because we can reuse these classes.
+ 
+  CSS vars defined on website Theme (vars values can change during the development process):
+ 
+  --wp--preset--color--custom-color-1: #05184d;
+  --wp--preset--color--custom-color-2: #ff923d;
+  --wp--preset--color--custom-color-3: #f92203;
+  --wp--preset--color--custom-color-4: #234e8d;
+  --wp--preset--color--custom-color-5: #75a8da;
+  --wp--preset--color--custom-color-6: #346bec;
+ 
+  --wp--preset--font-family--exquisans: Exquisans;
+  --wp--preset--font-family--lato: Lato, sans-serif;
 
+  Remote CSS seems to remove custom properties, so we only need them here as reference.
 
-/* Styles for the Header Intro with Blend Element */
+  --wp--style--global--content-size: 620px;
+  --wp--style--global--wide-size: 1280px;
 
-:root {
-	/*
-	Some custom properties for sizes, so we don't need to repeat the values.
-	Most sizes use clamp() to have a min and max value, and a value that grows with the viewport width.
-	The values in comments are the viewport width range where the value is applied.
-	e.g 40px for 1200px screen, and 400px for 2400px screen. The inbetwen values are calculated by the browser.
+  //--width__blend-element: clamp( 40px, calc(-320px + 30vw), 400px ); screen size: 1200 - 2400
+  //--height__blend-element: 100%;
+
+  //--height__second-row: clamp( 60px, calc( 60px + 7.5vw ), 180px ); screen size: 0 - 1600
+  //--height__third-row: clamp( 20px, calc( 20px + 2vw ), 40px ); screen size: 0 - 1000
+
+  //--width__second-row-first-col: clamp( 200px, calc( 80px + 60vw ), 800px ); screen size: 200 - 1200
+
+ Some custom properties for sizes, so we don't need to repeat the values.
+ Most sizes use clamp() to have a min and max value, and a value that grows with the viewport width.
+ The values in comments are the viewport width range where the value is applied.
+ e.g 40px for 1200px screen, and 400px for 2400px screen. The inbetwen values are calculated by the browser.
 
 	---
-
-	Remote CSS seems to remove custom properties, so we only need them here as reference.
-
-  	--width__blend-element: clamp( 40px, calc(-320px + 30vw), 400px ); screen size: 1200 - 2400
-	--height__blend-element: 100%;
-
-	--height__second-row: clamp( 60px, calc( 60px + 7.5vw ), 180px ); screen size: 0 - 1600
-	--height__third-row: clamp( 20px, calc( 20px + 2vw ), 40px ); screen size: 0 - 1000
-
-	--width__second-row-first-col: clamp( 200px, calc( 80px + 60vw ), 800px ); screen size: 200 - 1200
-	 */
-}
+***/
