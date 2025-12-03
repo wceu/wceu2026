@@ -45,3 +45,10 @@
 
 	---
 ***/
+
+.wp-block-buttons .wp-block-button__link {
+	padding-block: 0.6em 0.3em !important;
+}
+.hero-frame-bg {
+	background-repeat: repeat-x; background-size: auto 80px;
+}
