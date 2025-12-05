@@ -46,11 +46,6 @@
 ---
 ***/
 
-:root {
-	--wceu26-border-blue: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
-	--wceu26-border-orange: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
-}
-
 .wp-block-buttons .wp-block-button__link {
 	padding-block: 0.6em 0.3em !important;
 }
@@ -64,6 +59,10 @@
 	START of the Organizers.
 	For the usage with the (old) "Organizer list with bio (Organizers List)" block.
  */
+.wordcamp-post-list {
+	--wceu26-border-blue: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
+	--wceu26-border-orange: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
+}
 
  /* Display flex is needed, so we can easily change the order of name + avatar */
 .wordcamp-organizer {
