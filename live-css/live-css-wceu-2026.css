@@ -7,7 +7,7 @@
  
   Development environment is on https://wceutest.wordcamp.org/2026 and also includes
   this remote CSS. Update CSS from the website admin view (Appearance -> Remote CSS)
-  or visiting https://wceutest.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook
+  or visiting https://wceutest.wordcamp.org/2026/wp-admin/admin-ajax.php?action=wcrcss_webhook (ONLY FOR DEVELOPMENT)
 
   Don't use post IDs as selectors because they can change between development environment and production.
   Instead, use the slug; e.g. body.post-slug-call-for-volunteers, body.page-slug-accommodation or better,
@@ -43,8 +43,13 @@
  The values in comments are the viewport width range where the value is applied.
  e.g 40px for 1200px screen, and 400px for 2400px screen. The inbetwen values are calculated by the browser.
 
-	---
+---
 ***/
+
+:root {
+	--wceu26-border-blue: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
+	--wceu26-border-orange: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
+}
 
 .wp-block-buttons .wp-block-button__link {
 	padding-block: 0.6em 0.3em !important;
@@ -74,8 +79,30 @@
 }
 
 .wordcamp-organizer .wordcamp-organizers__title {
-	margin-top: 18px;
+	margin-top: 0;
 	order: 2; /* Show the name of the organizer after the avatar */
 }
 
+/* base styles for all images */
+.wordcamp-organizers__title::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 50px; /* Adjust with the image height */
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-bottom: 18px; /* Space between the image and the title */
+	margin-top: -5px; /* Adjust to move the image closer to the title */
+}
+
+/* Blue image for the first element */
+.wordcamp-post-list__post:first-child .wordcamp-organizers__title::before {
+	background-image: var(--wceu26-border-blue);
+}
+
+/* Orange image for all other elements */
+.wordcamp-post-list__post:not(:first-child) .wordcamp-organizers__title::before {
+	background-image: var(--wceu26-border-orange);
+}
 /* END of the Organizers */
