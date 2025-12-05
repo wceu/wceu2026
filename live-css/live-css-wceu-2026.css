@@ -99,11 +99,11 @@
 
 /* Blue image for the first element */
 .wordcamp-post-list__post:first-child .wordcamp-organizers__title::before {
-	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
 }
 
 /* Orange image for all other elements */
 .wordcamp-post-list__post:not(:first-child) .wordcamp-organizers__title::before {
-	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
+	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
 }
 /* END of the Organizers */
