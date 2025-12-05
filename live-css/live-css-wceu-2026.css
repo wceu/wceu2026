@@ -66,6 +66,11 @@
 	padding-inline-start: 0; /* Remove default ul padding */
 	display: flex;
 	flex-direction: column;
+}
+
+.wordcamp-organizer {
+	display: flex;
+	flex-direction: column;
 	container-type: inline-size;
 }
 
