@@ -98,10 +98,6 @@
 }
 
 /* Blue image for the first element */
-.team-lead-organizers .wordcamp-post-list__post .wordcamp-organizers__title::before {
-	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-colors-2x.png');
-}
-
 .wordcamp-post-list__post:first-child .wordcamp-organizers__title::before {
 	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
 }
@@ -109,5 +105,9 @@
 /* Orange image for all other elements */
 .wordcamp-post-list__post:not(:first-child) .wordcamp-organizers__title::before {
 	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
+}
+
+.team-lead-organizers .wordcamp-post-list__post .wordcamp-organizers__title::before {
+	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-colors-2x.png');
 }
 /* END of the Organizers */
