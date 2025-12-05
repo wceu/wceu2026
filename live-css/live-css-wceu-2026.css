@@ -64,12 +64,12 @@
 .wordcamp-organizer {
 	display: flex;
 	flex-direction: column;
+}
 
-	.wordcamp-image__avatar-container img {
-		display: block /* Make sure the image is block-level and no invisible margin is applied */;
-		width: 100% !important; /* Because we need to set a size on the avatar, we need to override it */
-		height: auto !important;
-		aspect-ratio: 1 / 1; /* Keep it square */
-	}
+.wordcamp-organizer .wordcamp-image__avatar-container img {
+	display: block /* Make sure the image is block-level and no invisible margin is applied */;
+	width: 100% !important; /* Because we need to set a size on the avatar, we need to override it */
+	height: auto !important;
+	aspect-ratio: 1 / 1; /* Keep it square */
 }
 /* END of the Organizers */
