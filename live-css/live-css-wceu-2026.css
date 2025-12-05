@@ -72,4 +72,10 @@
 	height: auto !important;
 	aspect-ratio: 1 / 1; /* Keep it square */
 }
+
+.wordcamp-organizer .wordcamp-organizers__title {
+	margin-top: 18px;
+	order: 2; /* Show the name of the organizer after the avatar */
+}
+
 /* END of the Organizers */
