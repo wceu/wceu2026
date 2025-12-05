@@ -71,7 +71,6 @@
 .wordcamp-organizer {
 	display: flex;
 	flex-direction: column;
-	container-type: inline-size;
 }
 
 .wordcamp-organizer .wordcamp-image__avatar-container img {
@@ -91,7 +90,7 @@
 	content: '';
 	display: block;
 	width: 100%;
-	height: clamp(20px, 16cqw, 55px); /* 16% container width */
+	height: clamp(20px, 4vw, 55px); /* 16% container width */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
