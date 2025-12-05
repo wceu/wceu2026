@@ -14,7 +14,7 @@
   create a class and use it on the element because we can reuse these classes.
  
   CSS vars defined on website Theme (vars values can change during the development process):
- 
+
   --wp--preset--color--custom-color-1: #05184d;
   --wp--preset--color--custom-color-2: #ff923d;
   --wp--preset--color--custom-color-3: #f92203;
@@ -49,8 +49,27 @@
 .wp-block-buttons .wp-block-button__link {
 	padding-block: 0.6em 0.3em !important;
 }
+
 .hero-frame-bg {
 	background-repeat: repeat-x !important;
 	background-size: auto 80px !important;
 }
 
+/*
+	START of the Organizers.
+	For the usage with the (old) "Organizer list with bio (Organizers List)" block.
+ */
+
+ /* Display flex is needed, so we can easily change the order of name + avatar */
+.wordcamp-organizer {
+	display: flex;
+	flex-direction: column;
+
+	.wordcamp-image__avatar-container img {
+		display: block /* Make sure the image is block-level and no invisible margin is applied */;
+		width: 100% !important; /* Because we need to set a size on the avatar, we need to override it */
+		height: auto !important;
+		aspect-ratio: 1 / 1; /* Keep it square */
+	}
+}
+/* END of the Organizers */
