@@ -61,9 +61,12 @@
  */
 
  /* Display flex is needed, so we can easily change the order of name + avatar */
-.wordcamp-organizer {
+
+.wordcamp-organizers {
+	padding-inline-start: 0; /* Remove default ul padding */
 	display: flex;
 	flex-direction: column;
+	container-type: inline-size;
 }
 
 .wordcamp-organizer .wordcamp-image__avatar-container img {
@@ -83,12 +86,11 @@
 	content: '';
 	display: block;
 	width: 100%;
-	height: 50px; /* Adjust with the image height */
+	height: clamp(20px, 16cqw, 55px); /* 16% container width */
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	margin-bottom: 18px; /* Space between the image and the title */
-	margin-top: -5px; /* Adjust to move the image closer to the title */
 }
 
 /* Blue image for the first element */
