@@ -55,6 +55,20 @@
 	background-size: auto 80px !important;
 }
 
+.newsletter-banner{
+	overflow:hidden;
+}
+@media screen and (max-width:1050px){
+	.newsletter-show-wide{
+		display:none!important;
+	}
+}
+@media screen and (min-width:1050px){
+	.newsletter-show-slim{
+		display:none;
+	}
+}
+
 /*
 	START of the Organizers.
 	For the usage with the (old) "Organizer list with bio (Organizers List)" block.
@@ -427,4 +441,5 @@
 	padding: 13px;
 }
 /* END Camptix block - tickets page */
+
 
