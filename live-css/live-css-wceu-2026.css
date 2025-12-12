@@ -46,6 +46,21 @@
 ---
 ***/
 
+.wp-block-table tr:first-of-type {
+	background: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 6%, #fff);
+	border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+	color: #111;
+	font-weight: 700;  
+
+}
+.wp-block-table td{
+	border:none!important;
+}
+.wp-block-table{
+  border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+  border-radius: 16px 3px;
+}
+
 .wp-block-buttons .wp-block-button__link {
 	padding-block: 0.6em 0.3em !important;
 }
@@ -450,3 +465,4 @@
 	}
 }
 /* END Camptix block - tickets page */
+
