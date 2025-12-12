@@ -159,7 +159,7 @@
 	width: 100%;
 	background: #fff;
 	border: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
-	border-radius: 16px;
+	border-radius: 16px 3px;
 	overflow: hidden;
 }
 
@@ -465,4 +465,5 @@
 	}
 }
 /* END Camptix block - tickets page */
+
 
