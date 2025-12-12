@@ -132,12 +132,13 @@
 	margin-bottom: 18px; /* Space between the image and the title */
 }
 
-/* Blue image for the first element */
+/* Team lead image for the first element */
 .wordcamp-post-list__post:first-child .wordcamp-organizers__title::before {
-	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-orange-2x.png');
+	background-image: url(https://europe.wordcamp.org/2026/files/2025/12/team-lead.png);
+  	background-position: 100%;
 }
 
-/* Orange image for all other elements */
+/* Blue banner image for all other elements */
 .wordcamp-post-list__post:not(:first-child) .wordcamp-organizers__title::before {
 	background-image: url('https://europe.wordcamp.org/2026/files/2025/12/border-blue-2x.png');
 }
@@ -465,5 +466,6 @@
 	}
 }
 /* END Camptix block - tickets page */
+
 
 
