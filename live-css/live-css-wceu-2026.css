@@ -125,11 +125,11 @@
 	content: '';
 	display: block;
 	width: 100%;
-	height: clamp(20px, 4vw, 55px); /* 16% container width */
+	height: clamp(43px, 4vw, 55px); /* 16% container width */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	margin-bottom: 18px; /* Space between the image and the title */
+	margin-bottom: 10px; /* Space between the image and the title */
 }
 
 /* Team lead image for the first element */
@@ -467,6 +467,7 @@
 	}
 }
 /* END Camptix block - tickets page */
+
 
 
 
