@@ -168,7 +168,6 @@
 .tix-js .tix_tickets_table th,
 .tix-js .tix_tickets_table td {
 	padding: 14px 16px;
-	vertical-align: middle;
 }
 
 .tix-js .tix_tickets_table thead th {
@@ -468,6 +467,7 @@
 	}
 }
 /* END Camptix block - tickets page */
+
 
 
 
