@@ -50,7 +50,7 @@
 	background: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 6%, #fff);
 	border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
 	color: #111;
-	font-weight: 700;  
+	font-weight: 700;
 
 }
 .wp-block-table td{
@@ -366,6 +366,27 @@
 	border: none;
 	text-transform: uppercase;
 }
+
+/* Tickets submit button - CSS anim test - BEGIN */
+#tix input[type="submit"]:hover, .tix-checkout-button:hover {
+	background: var(--wp--preset--color--custom-color-4);
+	transform: translate(0, 0.275em);
+	transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+#tix input[type="submit"], .tix-checkout-button {
+	transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+#tix input[type="submit"]:active, .tix-checkout-button:active {
+	box-shadow: 0 2px 0 0 var(--wp--preset--color--custom-color-1);
+	transform: translate(0em, 0.425em);
+}
+
+#tix input[type="submit"]:focus, .tix-checkout-button:focus {
+	outline-style: none;
+}
+/* Tickets submit button - CSS anim test - END */
 
 @media (max-width:767px) {
 	.tix_tickets_table table,
