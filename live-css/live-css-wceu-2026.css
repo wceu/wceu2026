@@ -134,7 +134,8 @@
 
 /* Team lead image for the first element */
 .wordcamp-post-list__post:first-child .wordcamp-organizers__title::before,
-.team-communications .wordcamp-post-list__post:nth-child(2) .wordcamp-organizers__title::before {
+.team-communications .wordcamp-post-list__post:nth-child(2) .wordcamp-organizers__title::before,
+.team-volunteers .wordcamp-post-list__post:nth-child(2) .wordcamp-organizers__title::before {
 	background-image: url(https://europe.wordcamp.org/2026/files/2025/12/team-lead.png);
   	background-position: 100%;
 }
@@ -488,10 +489,3 @@
 	}
 }
 /* END Camptix block - tickets page */
-
-
-
-
-
-
-
