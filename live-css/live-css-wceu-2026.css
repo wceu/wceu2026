@@ -352,6 +352,10 @@
 	margin-bottom: 3em;
 }
 
+.tix-js input[type="submit"] {
+	cursor: pointer;
+}
+
 #tix input[type=submit],
 .tix-checkout-button {
 	box-shadow: var(--wp--preset--shadow--shadow-2);
