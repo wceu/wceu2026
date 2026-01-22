@@ -518,6 +518,6 @@
 }
 
 .single-post .wp-block-accordion-item {
-	margin-bottom: 1em;
+	margin-bottom: 0;
 }
 /* Single posts customizations */
