@@ -494,3 +494,30 @@
 	}
 }
 /* END Camptix block - tickets page */
+
+/* Single posts customizations */
+.single-post .wp-block-paragraph {
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+
+.single-post .wp-block-heading {
+	margin-top: 1em;
+}
+
+.single-post .wp-block-accordion-heading {
+	font-size: var(--wp--preset--font-size--custom-4);
+}
+
+.single-post .wp-block-accordion-heading .wp-block-accordion-heading__toggle-icon {
+	margin-left: -12px;
+}
+
+.single-post .wp-block-accordion-heading .wp-block-accordion-heading__toggle {
+	padding-bottom: 0;
+}
+
+.single-post .wp-block-accordion-item {
+	margin-bottom: 1em;
+}
+/* Single posts customizations */
