@@ -402,6 +402,7 @@
 /* Tickets submit button - CSS anim test - BEGIN */
 #tix input[type="submit"]:hover,
 .tix-checkout-button:hover {
+	background-color: var(--wp--preset--color--white);
 	color: var(--wp--preset--color--accent);
 	transform: translate(0, 0.275em);
 	transition: all 175ms cubic-bezier(0, 0, 1, 1);
