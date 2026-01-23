@@ -406,6 +406,7 @@
 	color: var(--wp--preset--color--accent);
 	transform: translate(0, 0.275em);
 	transition: all 175ms cubic-bezier(0, 0, 1, 1);
+	border: 2px solid var(--wp--preset--color--accent);
 }
 
 #tix input[type="submit"],
