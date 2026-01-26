@@ -93,25 +93,6 @@
 	color: grey;
 }
 
-.wceu-btn-outline:hover,
-.wceu-btn-outline:hover,
-.wceu-btn-primary:hover,
-.wceu-btn-primary:hover,
-.wceu-btn-outline-alt:hover,
-.wceu-btn-outline-alt:hover,
-.wceu-btn-primary-alt:hover,
-.wceu-btn-primary-alt:hover,
-.wceu-btn-outline > a:hover,
-.wceu-btn-outline > button:hover,
-.wceu-btn-primary > a:hover,
-.wceu-btn-primary > button:hover,
-.wceu-btn-outline-alt > a:hover,
-.wceu-btn-outline-alt > button:hover,
-.wceu-btn-primary-alt > a:hover,
-.wceu-btn-primary-alt > button:hover {
-	transform: none;
-}
-
 .wceu-btn-outline > a,
 .wceu-btn-outline > button,
 .wceu-btn-primary > a,
