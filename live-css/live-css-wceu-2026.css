@@ -669,11 +669,13 @@
   display: block !important;
   width: 30% !important;
   margin: 0;
+  font-size: inherit;
 }
 
 .wp-block-accordion.wceu-accordion .wp-block-accordion-panel{
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: calc(30% + 2rem);
   width: calc(100% - (30% + 2rem));
 
@@ -717,7 +719,7 @@
   justify-content: center;
 
   /* chunky tabs */
-  padding: 2.25rem 1rem !important;
+  padding: 1.55rem 0.5rem !important;
 
   /* typography */
   font-family: inherit;
@@ -804,6 +806,7 @@
     width: auto !important;
     left: auto !important;
     top: auto !important;
+	transform: unset;
 
     display: none;
     opacity: 1;
