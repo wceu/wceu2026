@@ -811,7 +811,7 @@
     display: none;
     opacity: 1;
     pointer-events: auto;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 
   .wp-block-accordion.wceu-accordion .wp-block-accordion-item.is-open .wp-block-accordion-panel{
