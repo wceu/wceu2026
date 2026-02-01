@@ -845,3 +845,17 @@
     letter-spacing: 0.02em;
   }
 }
+
+/* =========================================================
+   HOME PAGE
+   ========================================================= */
+.heart-ornament-split-bg {
+	z-index: 500 !important;
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	.home-relative {
+		padding-top: 30px !important;
+	}
+}
