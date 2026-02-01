@@ -855,7 +855,11 @@
 }
 
 @media (max-width: 768px) {
-	.home-relative {
-		padding-top: 30px !important;
+	.home-video {
+		margin-block: 30px !important;
+	}
+
+	.wp-image-2715 {
+		margin-bottom: 30px !important;
 	}
 }
