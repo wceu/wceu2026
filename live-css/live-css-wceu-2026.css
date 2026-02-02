@@ -46,6 +46,10 @@
 ---
 ***/
 
+/* Visa page fix */
+.post-slug-visa .wp-block-accordion-heading button { align-items: start; }
+.post-slug-visa .wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title { text-decoration: none; }
+
 /* White buttons 'Open Calls; */
 :root :where(.wp-block-button .wp-block-button__link):hover {
 	background-color: #346bec !important;
