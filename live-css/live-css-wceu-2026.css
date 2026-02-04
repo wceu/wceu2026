@@ -76,7 +76,7 @@
 /****************** BUTTONS CLASSES ******************/
 [class*="wceu-btn"] > a,
 [class*="wceu-btn"] > button {
-	border-width: 2px;
+	border-width: 3px;
 	border-style: solid;
 	letter-spacing: .05em;
 	font-family: var(--wp--preset--font-family--exquisans);
