@@ -50,6 +50,9 @@
 .post-slug-visa .wp-block-accordion-heading button { align-items: start; }
 .post-slug-visa .wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title { text-decoration: none; }
 
+/* Latest News Read More Link Shadow */
+.read-more-shadow { box-shadow: 0 6px 0 0 var(--wp--preset--color--contrast); }
+
 /* White buttons 'Open Calls; */
 :root :where(.wp-block-button .wp-block-button__link):hover {
 	background-color: #346bec !important;
