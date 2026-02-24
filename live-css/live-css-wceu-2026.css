@@ -46,6 +46,11 @@
 ---
 ***/
 
+/* Footer Social Media Fix */
+:root :where(.wp-block-social-links) {
+    background-color: transparent !important;
+}
+
 /* Visa page fix */
 .post-slug-visa .wp-block-accordion-heading button { align-items: start; }
 .post-slug-visa .wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title { text-decoration: none; }
