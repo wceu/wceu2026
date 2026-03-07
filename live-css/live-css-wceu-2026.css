@@ -81,6 +81,13 @@
 	outline-style: none;
 }
 
+.wp-block-button .wp-block-button__link {
+	letter-spacing: .05em;
+	font-family: var(--wp--preset--font-family--lato);
+	font-size: 20px;
+	font-weight: 700;
+}
+
 /****************** BUTTONS CLASSES ******************/
 [class*="wceu-btn"] > a,
 [class*="wceu-btn"] > button {
