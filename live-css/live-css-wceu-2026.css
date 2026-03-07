@@ -99,7 +99,7 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-inline: 1em;
-	padding-block: .6em .3em;
+	padding-block: .6em .3em .7em;
 	transition: all 175ms cubic-bezier(0, 0, 1, 1);
 	transform: none;
 }
@@ -499,7 +499,7 @@
 	letter-spacing: .05em !important;
 	font-weight: 700;
 	font-family: var(--wp--preset--font-family--lato);
-	padding-block: .6em .3em !important;
+	padding-block: .6em .3em .7em !important;
 	font-size: 20px;
 	padding-inline: 1em;
 	border: none;
