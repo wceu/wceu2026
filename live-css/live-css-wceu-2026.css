@@ -97,7 +97,7 @@
 	font-family: var(--wp--preset--font-family--lato);
 	font-size: 20px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	padding-inline: 1em;
 	padding-block: .6em .3em .8em .3em !important;
 	transition: all 175ms cubic-bezier(0, 0, 1, 1);
@@ -503,7 +503,7 @@
 	font-size: 20px;
 	padding-inline: 1em;
 	border: none;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 /* Tickets submit button - CSS anim test - BEGIN */
