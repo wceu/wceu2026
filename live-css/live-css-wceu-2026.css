@@ -425,7 +425,7 @@
 	margin-bottom: 1em;
 }
 
-.tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left::after {
+.tix-js .tix_tickets_table.tix--form .tix-row-health-advisory .tix-left::after {
 	content: none;
 }
 
@@ -604,24 +604,24 @@
 
 	.tix-ticket-form td.tix-left,
 	.tix-private-form td.tix-left,
-	.tix-attendee-form td.tix-left,
+	.tix--form td.tix-left,
 	.tix-receipt-form td.tix-left,
 	.tix_invoice_table td.tix-left,
 	.tix-ticket-form td.tix-right,
 	.tix-private-form td.tix-right,
-	.tix-attendee-form td.tix-right,
+	.tix--form td.tix-right,
 	.tix-receipt-form td.tix-right,
 	.tix_invoice_table td.tix-right {
 		width: 100% !important;
 	}
 
-	.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+	.tix-js .tix_tickets_table.tix--form .tix-right {
 		padding-top: .5em !important;
 		padding-left: 0;
 		box-sizing: border-box;
 	}
 
-	.tix-js .tix_tickets_table.tix-attendee-form .tix-left,
+	.tix-js .tix_tickets_table.tix--form .tix-left,
 	.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
 		text-align: left !important;
 		width: 100%;
@@ -633,6 +633,19 @@
 	}
 }
 /* END Camptix block - tickets page */
+
+/* attendees page customizations */
+
+#tix-attendees .tix-attendee-name {
+    font-family: var(--wp--preset--font-family--lato);
+    font-size: clamp(20px, 2rem + ((1vw - 3.2px) * 1), 24px) !important;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 0.85em;
+    text-transform: none;
+}
+
+/* END attendees page */
 
 /* Single posts customizations */
 .single-post .wp-block-paragraph {
