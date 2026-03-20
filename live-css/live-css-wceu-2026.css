@@ -642,7 +642,11 @@
     font-style: normal;
     font-weight: 500;
     padding-bottom: 0.85em;
-    text-transform: none !important;
+    text-transform: none;
+}
+
+#tix-attendees .tix-attendee-list li img {
+    width: 140px;
 }
 
 /* END attendees page */
