@@ -642,7 +642,7 @@
     font-style: normal;
     font-weight: 500;
     padding-bottom: 0.85em;
-    text-transform: none;
+    text-transform: none !important;
 }
 
 /* END attendees page */
