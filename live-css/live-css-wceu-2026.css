@@ -649,6 +649,27 @@
     width: 140px;
 }
 
+#tix-attendees .tix-attendee-list li::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	inset: 0;
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	background-image: url('//europe.wordcamp.org/2026/files/2026/03/attendee-NO-gravatar-2.png');
+	background-size: cover;
+}
+
+#tix input[type="submit"], .tix-checkout-button {
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	margin-bottom: 20px;
+	border: 2px solid rgb(52, 107, 236) !important;
+}
+
 /* END attendees page */
 
 /* Single posts customizations */
