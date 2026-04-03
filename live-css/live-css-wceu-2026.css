@@ -655,8 +655,8 @@
 	position: absolute;
 	inset: 0;
 	margin: 0 auto;
-	width: 140px;
-	height: 140px;
+	width: 150px;
+	height: 150px;
 	background-image: url('//europe.wordcamp.org/2026/files/2026/03/attendee-NO-gravatar-2.png');
 	background-size: cover;
 }
@@ -669,6 +669,37 @@
 	margin-bottom: 20px;
 	border: 2px solid rgb(52, 107, 236) !important;
 }
+
+@media (max-width: 768px) {
+    #tix-attendees .tix-attendee-list {
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        margin: 0;
+    }
+
+    #tix-attendees .tix-attendee-list li {
+        margin: 0 20px;
+    }
+#tix-attendees .tix-attendee-name {
+padding-bottom: 20px !important;
+}
+
+#tix-attendees .tix-attendee-list li img {
+    width: 150px !important;
+}
+
+#tix-attendees .tix-attendee-list {
+    gap: 10px !important;
+}
+
+#tix-attendees .tix-attendee-list li::before {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+}
+
+
 
 /* END attendees page */
 
