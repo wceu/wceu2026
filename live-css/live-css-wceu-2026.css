@@ -948,3 +948,29 @@ padding-bottom: 20px !important;
 		margin-bottom: 30px !important;
 	}
 }
+
+
+/* =========================================================
+   SPEAKER SINGLE
+   ========================================================= */
+.session-info-bullets li:nth-child(1)::before {
+  content: "📅 ";
+}
+
+.session-info-bullets li:nth-child(2)::before {
+  content: "🕐 ";
+}
+
+.session-info-bullets li:nth-child(3)::before {
+  content: "🚪 ";
+}
+
+/* Remove default bullet points */
+.session-info-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+div:has(&gt; .wp-block-heading):has(&gt; .wp-block-wordcamp-speaker-sessions) {
+  background-color: blue;
+}
