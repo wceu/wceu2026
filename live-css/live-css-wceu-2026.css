@@ -949,38 +949,3 @@ padding-bottom: 20px !important;
 	}
 }
 
-
-/* =========================================================
-   SPEAKER SINGLE
-   ========================================================= */
-.session-info-bullets li:nth-child(1)::before {
-  content: "📅 ";
-}
-
-.session-info-bullets li:nth-child(2)::before {
-  content: "🕐 ";
-}
-
-.session-info-bullets li:nth-child(3)::before {
-  content: "🚪 ";
-}
-
-/* Remove default bullet points */
-.session-info-bullets {
-  list-style: none;
-  padding-left: 0;
-}
-
-div:has(&gt; .wp-block-heading):has(&gt; .wp-block-wordcamp-speaker-sessions) {
-background-color: #e8f0fe;
-padding-top: min(4rem, 5vw);
-padding-right: min(6.5rem, 8vw);
-padding-bottom: min(4rem, 5vw);
-padding-left: min(6.5rem, 8vw);
-max-width: 900px;
-margin: 0 auto;
-}
-
-.wordcamp-speaker-sessions__track {
-  display: block;
-}
