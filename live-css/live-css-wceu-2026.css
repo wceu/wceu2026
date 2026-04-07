@@ -977,6 +977,10 @@ padding-top: min(4rem, 5vw);
 padding-right: min(6.5rem, 8vw);
 padding-bottom: min(4rem, 5vw);
 padding-left: min(6.5rem, 8vw);
-max-width: 800px;
+max-width: 900px;
 margin: 0 auto;
+}
+
+.wordcamp-speaker-sessions__track {
+  display: block;
 }
