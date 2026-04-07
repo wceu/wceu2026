@@ -972,8 +972,11 @@ padding-bottom: 20px !important;
 }
 
 div:has(&gt; .wp-block-heading):has(&gt; .wp-block-wordcamp-speaker-sessions) {
-  background-color: #e8f0fe;
-	padding: min(6.5rem, 8vw);
+background-color: #e8f0fe;
+padding-top: min(4rem, 5vw);
+padding-right: min(6.5rem, 8vw);
+padding-bottom: min(4rem, 5vw);
+padding-left: min(6.5rem, 8vw);
 max-width: 800px;
 margin: 0 auto;
 }
