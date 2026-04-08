@@ -989,3 +989,42 @@ margin: 0 auto;
   display: block;
 }
 
+/* Hide "in" by hiding the full sentence and using the bullets instead */
+.wordcamp-speaker-sessions__session-info {
+  display: none;
+}
+
+/* Style the bullet list items with icons */
+.session-info-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.session-info-bullets li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+/* Calendar icon — date */
+.session-info-bullets li:nth-child(1)::before {
+  content: '📅';
+}
+
+/* Clock icon — time */
+.session-info-bullets li:nth-child(2)::before {
+  content: '🕐';
+}
+
+/* Door icon — track */
+.session-info-bullets li:nth-child(3)::before {
+  content: '🚪';
+}
+
+/* Session title link */
+.wp-block-group.has-base-background-color .has-medium-font-size a::before {
+  content: '✅';
+  margin-right: 8px;
+}
+
