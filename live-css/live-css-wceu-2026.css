@@ -959,16 +959,16 @@ padding-bottom: 20px !important;
 
 /* Remove default bullet points */
 .session-info-bullets {
-  list-style: none;
-  padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
-background-color: #e8f0fe;
-padding-top: min(4rem, 5vw);
-padding-right: min(6.5rem, 8vw);
-padding-bottom: min(4rem, 5vw);
-padding-left: min(6.5rem, 8vw);
-max-width: 900px;
-margin: 0 auto;
+	background-color: #e8f0fe;
+	padding-top: min(4rem, 5vw);
+	padding-right: min(6.5rem, 8vw);
+	padding-bottom: min(4rem, 5vw);
+	padding-left: min(6.5rem, 8vw);
+	max-width: 900px;
+	margin: 0 auto;
 }
