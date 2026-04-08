@@ -989,18 +989,3 @@ margin: 0 auto;
   display: block;
 }
 
-.wp-container-core-group-is-layout-e564c947 ~ * h3::before,
-.wp-container-core-group-is-layout-39412042 h3::before {
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-image: url('https://europe.wordcamp.org/2026/files/2026/01/daisy-blue.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 8px;
-  vertical-align: middle;
-}
-
-
