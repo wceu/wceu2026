@@ -989,12 +989,3 @@ margin: 0 auto;
   display: block;
 }
 
-.entry-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.wp-block-group:has(.wp-block-jetpack-sharing-buttons) {
-  order: 999;
-}
-
