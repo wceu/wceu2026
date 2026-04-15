@@ -976,4 +976,6 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 
 h4.wordcamp-schedule__session-title, .wordcamp-schedule__time-slot-header {
 	font-family: 'Lato';
+	font-weight: bold;
+	text-transform: capitalize;
 }
