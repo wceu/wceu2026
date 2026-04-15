@@ -953,10 +953,6 @@ padding-bottom: 20px !important;
    SPEAKER SINGLE
    ========================================================= */
 
-/* =========================================================
-   SPEAKER SINGLE
-   ========================================================= */
-
 /* Remove default bullet points */
 .session-info-bullets {
 	list-style: none;
@@ -971,4 +967,13 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 	padding-left: min(6.5rem, 8vw);
 	max-width: 900px;
 	margin: 0 auto;
+}
+
+
+/* =========================================================
+   SCHEDULE GRID
+   ========================================================= */
+
+h4.wordcamp-schedule__session-title, .wordcamp-schedule__time-slot-header {
+	font-family: 'Lato';
 }
