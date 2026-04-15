@@ -985,7 +985,7 @@ h4.wordcamp-schedule__session-title {
 	font-weight: bold;
 }
 
-.wordcamp-schedule__day td[colspan="2"], .wordcamp-schedule__day td[colspan="3"], .wordcamp-schedule__day td[colspan="4"], .wordcamp-schedule__day td[colspan="5"] {
+#wordcamp-schedule__session-7095, #wordcamp-schedule__session-7091 {
   text-align: center !important;
 }
 
