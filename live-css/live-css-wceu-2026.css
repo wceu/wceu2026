@@ -974,8 +974,16 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
    SCHEDULE GRID
    ========================================================= */
 
-h4.wordcamp-schedule__session-title, .wordcamp-schedule__time-slot-header {
+h4.wordcamp-schedule__session-title {
 	font-family: 'Lato';
 	font-weight: bold;
-	text-transform: capitalize;
+}
+
+.wordcamp-schedule__time-slot-header {
+	font-family: 'Lato';
+	font-weight: bold;
+}
+
+.wordcamp-schedule__day td[colspan="2"], td[colspan="3"], td[colspan="4"], td[colspan="5"] {
+  text-align: center !important;
 }
