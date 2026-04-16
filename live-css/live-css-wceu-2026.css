@@ -952,7 +952,9 @@ padding-bottom: 20px !important;
 /* =========================================================
    SPEAKER SINGLE
    ========================================================= */
-
+li.wcb_speaker > figure {
+  height: auto !important;
+}
 /* Remove default bullet points */
 .session-info-bullets {
 	list-style: none;
