@@ -78,7 +78,7 @@
 }
 
 :root :where(.wp-block-button .wp-block-button__link):focus {
-	outline-style: none;
+	outline-color: white;
 }
 
 .wp-block-button .wp-block-button__link {
