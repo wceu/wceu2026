@@ -976,7 +976,7 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
    SCHEDULE GRID
    ========================================================= */
 .wcb-favourite-session .dashicon.dashicons.dashicons-star-filled {
-  color: orange;
+  color: #ffb900;
 }
 .postid-7006 .taxonomy-wcb_track a:not(:first-of-type),
 .postid-7006 .taxonomy-wcb_track .wp-block-post-terms__separator,
