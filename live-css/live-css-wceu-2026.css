@@ -1168,10 +1168,6 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 		font-weight: 700;
 	}
 
-	.side-events-table td:nth-child(2) {
-		padding-top: 0 !important;
-	}
-
 	.side-events-table td:nth-child(2) > strong:first-child {
 		display: block;
 		box-sizing: border-box;
