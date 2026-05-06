@@ -1012,10 +1012,6 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 	border-collapse: collapse;
 }
 
-.side-events-table tr {
-	display: table-row;
-}
-
 .side-events-table td {
 	display: table-cell;
 	padding: 1rem 1.25rem !important;
@@ -1071,7 +1067,7 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 /* =========================================================
    Tablet / narrow desktop: 2-column hybrid
    ========================================================= */
-@media (min-width: 701px) and (max-width: 1000px) {
+@media (min-width: 601px) and (max-width: 1000px) {
 	.side-events-table table,
 	.side-events-table tbody {
 		display: block;
@@ -1132,22 +1128,12 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 }
 
 /* =========================================================
-   Mobile: stacked cards, blue title bars only here
+   Mobile: stacked cards, location and date in row, blue title bars only here
    ========================================================= */
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 
 	.side-events-table td:last-child, .side-events-table td:first-child{
 		background: color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 6%, #fff);
-	}
-	
-	.side-events-table table,
-	.side-events-table tbody,
-	.side-events-table tr,
-	.side-events-table td {
-		display: block;
-		width: 100% !important;
-		min-width: 0 !important;
-		box-sizing: border-box;
 	}
 
 	.side-events-table tr:first-child {
@@ -1155,7 +1141,7 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 	}
 
 	.side-events-table tr:not(:last-child) {
-		border-bottom: 4px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+		border-bottom: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
 	}
 
 	.side-events-table tr:not(:first-child):first-of-type {
