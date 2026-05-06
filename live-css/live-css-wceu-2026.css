@@ -1035,6 +1035,10 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 	width: 7.5rem;
 }
 
+.side-events-table tr:not(:first-child) {
+	border-top: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+}
+
 .side-events-table td:last-child {
 	width: 14rem;
 }
@@ -1086,7 +1090,6 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 	.side-events-table tr:not(:first-child) {
 		display: grid;
 		grid-template-columns: 7rem minmax(0, 1fr);
-		border-top: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
 	}
 
 	.side-events-table tr:not(:first-child):nth-child(2) {
@@ -1151,8 +1154,8 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 		display: none;
 	}
 
-	.side-events-table tr:not(:first-child) {
-		border-top: 1px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
+	.side-events-table tr:not(:last-child) {
+		border-bottom: 4px solid color-mix(in srgb, var(--wp--preset--color--accent, #4f46e5) 18%, #0000);
 	}
 
 	.side-events-table tr:not(:first-child):first-of-type {
