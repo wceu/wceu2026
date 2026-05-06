@@ -990,6 +990,8 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 }
 .postid-7006 .taxonomy-wcb_track a:not(:first-of-type),
 .postid-7006 .taxonomy-wcb_track .wp-block-post-terms__separator,
+.postid-9571 .taxonomy-wcb_track a:not(:first-of-type),
+.postid-9571 .taxonomy-wcb_track .wp-block-post-terms__separator,
 .postid-7047 .taxonomy-wcb_track a:not(:first-of-type),
 .postid-7047 .taxonomy-wcb_track .wp-block-post-terms__separator {
   display: none;
