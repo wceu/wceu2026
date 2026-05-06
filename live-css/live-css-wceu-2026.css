@@ -1150,6 +1150,7 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
 
 	.side-events-table td {
 		padding: .85rem 1rem !important;
+		box-sizing: border-box;
 	}
 
 	.side-events-table td:first-child {
