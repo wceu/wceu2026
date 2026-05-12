@@ -1199,23 +1199,38 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
   .wp-block-group,
   .wp-block-wordcamp-schedule,
   .wordcamp-schedule {
+    display: block !important;
     width: 100% !important;
     max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
     overflow: visible !important;
   }
 
   .wordcamp-schedule {
-    font-size: 7pt !important;
-    line-height: 1.2 !important;
+    font-size: 8pt !important;
+    line-height: 1.25 !important;
   }
 
   .wordcamp-schedule__date {
+    display: block !important;
+    break-before: page;
+    page-break-before: always;
     margin: 0 0 8px !important;
-    font-size: 15pt !important;
+    padding: 0 !important;
     color: #000 !important;
+    font-size: 16pt !important;
+    line-height: 1.2 !important;
   }
 
-  .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__day {
+  .wordcamp-schedule:first-child .wordcamp-schedule__date,
+  .wp-block-wordcamp-schedule:first-child .wordcamp-schedule__date,
+  .wp-block-group:first-child .wordcamp-schedule__date {
+    break-before: auto;
+    page-break-before: auto;
+  }
+
+  .wordcamp-schedule__day {
     display: grid !important;
     grid-template-columns:
       [times] 58px
@@ -1224,11 +1239,9 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
       [wordcamp-schedule-track-49-end wordcamp-schedule-track-65-start] 1fr
       [wordcamp-schedule-track-65-end wordcamp-schedule-track-66-start] 1fr
       [wordcamp-schedule-track-66-end] !important;
-
+    grid-auto-flow: row !important;
     grid-auto-rows: auto !important;
-    grid-auto-flow: row dense !important;
     gap: 1px !important;
-
     background: #bbb !important;
     overflow: visible !important;
   }
@@ -1240,6 +1253,8 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
     grid-row: auto !important;
     position: static !important;
     z-index: auto !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   .wordcamp-schedule__column-header {
@@ -1249,6 +1264,7 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
     color: #000 !important;
     font-size: 7pt !important;
     font-weight: 700 !important;
+    line-height: 1.15 !important;
     text-align: center !important;
   }
 
@@ -1273,46 +1289,32 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
   }
 
   .wordcamp-schedule__time-slot-header {
-    display: flex !important;
+    display: block !important;
     grid-column: times !important;
-
     margin: 0 !important;
     padding: 4px 3px !important;
-
     background: #f4f4f4 !important;
     color: #000 !important;
-
     border: 0 !important;
     box-shadow: none !important;
-
     font-size: 6.5pt !important;
     line-height: 1.15 !important;
     text-align: center !important;
-
-    justify-content: center !important;
-    align-items: center !important;
     min-width: 0 !important;
   }
 
   .wordcamp-schedule__session {
     display: block !important;
-
     margin: 0 !important;
     padding: 4px 5px !important;
-
     background: #fff !important;
     color: #000 !important;
-
     border: 0 !important;
     box-shadow: none !important;
-
-    font-size: 6.7pt !important;
+    font-size: 6.8pt !important;
     line-height: 1.15 !important;
     text-align: left !important;
-
-    overflow: hidden !important;
-    break-inside: avoid;
-    page-break-inside: avoid;
+    overflow: visible !important;
   }
 
   .wordcamp-schedule__session.has-track-track-1 {
@@ -1357,10 +1359,8 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
     display: block !important;
     margin: 0 !important;
     padding: 0 !important;
-
     color: #000 !important;
-
-    font-size: 7pt !important;
+    font-size: 7.2pt !important;
     font-weight: 700 !important;
     line-height: 1.15 !important;
     text-decoration: none !important;
@@ -1370,22 +1370,17 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
     display: block !important;
     margin: 2px 0 0 !important;
     padding: 0 !important;
-
     color: #000 !important;
-
-    font-size: 6.2pt !important;
+    font-size: 6.4pt !important;
     line-height: 1.15 !important;
   }
 
   .wordcamp-schedule__session-speakers,
   .wordcamp-schedule__session-category {
     display: block !important;
-
     margin: 2px 0 0 !important;
     padding: 0 !important;
-
     color: #000 !important;
-
     font-size: 6pt !important;
     line-height: 1.15 !important;
   }
