@@ -1420,3 +1420,11 @@ div:has(>.wp-block-heading):has(> .wp-block-wordcamp-speaker-sessions) {
     content: "" !important;
   }
 }
+
+
+/* Speakers overview */
+.attachment-256x256.size-256x256.wp-post-image, figure.wp-block-wordcamp-avatar {
+  width: 340px !important;
+  height: auto !important;
+  max-width: 100%;
+}
